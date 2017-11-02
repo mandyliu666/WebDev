@@ -1,0 +1,10 @@
+Paper Title: ZOO: Zeroth Order Optimization based Black-box Attacks to Deep Neural Networks without Training Substitute Models
+
+Yingdi Liu
+
+This paper has introduced a black-box attack on Deep Neural Networks that only has access to the input images and confidence scores and can successfully attack the targeted DNN without training any substitute model as an attack surrogate. Also the authors have used zeroth order optimization to estimate the gradients of the targeted DNN to generate adversarial examples. The attack they created is as effective as the state-of-the-art white-box attack and significantly outperforms existing black-box attacks via substitute models.
+
+They first discussed the adversarial attacks and their transferability, summarized several open-box methods developed for attacking image classification trained on DNN. Then they introduced black-box attacks and substitute models and discussed methods to defending adversarial attacks. Finally, they summarized benefits and challenges of black-box attacks using zeroth order optimization.
+
+By exploiting zeroth order optimization for deploying pseudo back propagation on a targeted black-box DNN, experimental results
+show that their attack attains comparable performance to the state-of-the-art white-box attack. In addition, their black-box attack significantly outperforms the substitute model based black-box attack in terms of attack success rate and distortion. Furthermore, they have proposed several acceleration techniques for applying their attack to large DNNs trained on ImageNet, whereas the substitute model based black-box attack is hardly scalable to a large DNN. They have also discussed some potential research directions of their black-box adversarial attacks, such as accelerated black-box attack, adversarial training using their black-box attack, etc.
