@@ -1,0 +1,40 @@
+div {
+	display: block;
+}
+
+a h1 {
+	margin-top: 5px;
+	margin-left: 20px;
+	color: black;
+}
+
+.navbar {
+	background-color: #999999;
+	border-width: 0px;
+}
+
+a.navbar-brand {
+	padding: 0px;
+}
+
+nav.navbar {
+	border-radius: 0px;
+}
+
+.text {
+	margin: 20px;
+	background-color: #999999;
+	padding: 10px;
+	color: black;
+}
+
+div.container-fluid {
+	padding: 0px;
+	margin: 0px;
+}
+
+h3.text-center {
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
